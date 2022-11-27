@@ -1,0 +1,23 @@
+name=input("Enter your name:")
+grades=int(input("Enter your Grade:"))
+
+if grades>=50:
+    x='passed'
+    print("Passed")
+    print("Name: ",name)
+    print("Grade: ",grades)
+    print("Remark: ",x)
+    print("keep up the good work")
+else:
+        print("Failed")
+        rem=int(input("Score: "))
+        if rem>=50:
+           print("congrats this is posibility you will pass")
+
+           pro=input("will you promise to do good next time Yes or No? ")
+           if pro=='Yes':
+               print("very good & fighting")
+           elif pro=='No':
+               print("You have to do good next time")
+        else:
+           print("You need to Accept the Reality & Do good for the rest of the period")

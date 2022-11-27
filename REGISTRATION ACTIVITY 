@@ -1,0 +1,14 @@
+print("----Registration----")
+a=input("Enter your Firstname:")
+b=input("Enter your Lastname:")
+c=input("Enter your Username:")
+d=int(input("Enter your Password:"))
+print("Successfully Registered")
+print("---- Login--- ")
+e=input("Enter your Username:")
+f=int(input("Enter your Passwordname:"))
+if e==c and f==d:
+  print("Successfully Login ")
+  
+else:
+  print("Invalid Username and Password")

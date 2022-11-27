@@ -1,0 +1,74 @@
+print(""" Hello Students
+
+How are you today?
+A.Shift A
+B.Shift B
+C.Shift C""")
+shift=input(">")
+if shift== 'A' or shift =='a':
+    print("What's the date today?")
+    print("""
+    A.MONDAY
+    B.TUESDAY
+    C.WEDNESDAY
+    D.THURSDAY
+    E.FRIDAY
+    F.SATURDAY
+    G.SUNDAY""")
+    day = input(">")
+    if day =='A' or day =='B' or day =='C':
+        print("""Did you wear school uniform today and ID? 
+              Yes or No""")
+        wear= input(">")
+        if wear == 'Yes' or wear == 'yes' or wear == 'YES':
+            print("You are allowed to enter the campus")
+        else:
+            print(" You are not allowed to enter the campus")
+    else:
+            print("not Valid")
+
+elif shift=='B' or shift=='b':
+    print("What's the day today?")
+    print("""
+    A.MONDAY
+    B.TUESDAY
+    C.WEDNESDAY
+    D.THURSDAY
+    E.FRIDAY
+    F.SATURDAY
+    G.SUNDAY""")
+    times= input(">")
+    if times =='D' or times =='E' or times == 'F':
+        print("Did you wear school uniform today and ID?")
+        print("Yes or No")
+        event= input(">")
+        if event== 'yes' or event== 'Yes' or event =='YES':
+            print("You are allowed to enter the campus")
+        else:
+            print(" You are not allowed to enter the campus")
+    else:
+        print("You are not allowed to enter the campus today!")
+
+elif shift == 'C' or shift == 'c':
+    print("What's the day today?")
+    print("""
+                A.MONDAY
+                B.TUESDAY
+                C.WEDNESDAY
+                D.THURSDAY
+                E.FRIDAY
+                F.SATURDAY
+                G.SUNDAY""")
+    days = input(">")
+    if days == 'G' or days == 'A' or days == 'B':
+        print("Did you wear school uniform today and ID?")
+        print("Yes or No")
+        wearing = input(">")
+        if wearing == 'yes' or wearing == 'Yes' or wearing == 'YES':
+            print("You are allowed to enter the campus")
+        else:
+            print(" You are not allowed to enter the campus")
+    else:
+        print("You are not allowed to enter the campus today!")
+else:
+    print("Invalid Output")

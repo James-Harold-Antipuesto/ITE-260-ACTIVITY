@@ -1,0 +1,44 @@
+num=int(input("Enter a number:"))
+while (num%2)==0:
+    print("EVEN")
+    num = int(input("Enter a number:"))
+else:
+    print("ODD")
+    
+    
+    
+    
+    
+    
+    menu=print("""Choose your menu
+a. salad-10
+b.pakbet-20
+c.spag-50
+d.sabaw-5
+e.rice-10
+ """)
+print("Our Menu",menu)
+order=input("Order again? Yes or no")
+total=0
+while order == 'yes':
+    ord=input("order")
+    again=input("Order again? Yes or no")
+    if order =="a":
+        total+=10
+    elif order=="b":
+        total+=20
+    elif order == "c":
+        total+=50
+    elif order == "d":
+        total+=5
+    elif order == "e":
+        total+=10
+
+        if again == 'yes':
+            print("Our menu",menu)
+
+        else:
+            break
+else:
+        print("done")
+        print(total)

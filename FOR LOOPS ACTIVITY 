@@ -1,0 +1,19 @@
+sum=0
+for x in range(5):
+    a=int(input("Num: "))
+    sum+=a
+
+print("Total ",sum)
+
+
+
+#Guesing the number!
+print("Guesing the number 1 to 10")
+#Naa kay 5 lives to para maka dula ani na game!
+for x in range(3):
+   a=int(input("Enter Num: "))
+   if a==5:
+       print("Correct!")
+       break
+else:
+       print("Wrong guessing")
